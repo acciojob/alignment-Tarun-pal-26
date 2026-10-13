@@ -1,16 +1,118 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment 3</title>
 
+    <style>
+        table {
+            border: 1px solid black;
+            spacing: 1px;
+            padding: 1px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 1px;
+        }
+
+        .middle {
+            text-align: center;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <h1 style="text-align: center;">HTML Assignment #3</h1>
+
+    <!-- Table 1 -->
+    <table id="table-1" style="width: 90%;">
+        <tr>
+            <td>left</td>
+            <td class="middle">center</td>
+            <td class="right">right</td>
+        </tr>
+        <tr>
+            <td>left</td>
+            <td class="middle">center</td>
+            <td class="right">right</td>
+        </tr>
+        <tr>
+            <td>left</td>
+            <td class="middle">center</td>
+            <td class="right">right</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!-- Table 2 -->
+    <table id="table-2" style="width: 90%;">
+        <tr>
+            <td colspan="6"> </td>
+        </tr>
+        <tr>
+            <td rowspan="4"> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td colspan="2"> </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td colspan="3"> </td>
+            <td rowspan="2"> </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td colspan="2"> </td>
+            <td colspan="2"> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td colspan="6"> </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!-- Table 3 -->
+    <table id="table-3" style="width: 90%;">
+        <tr>
+            <td colspan="3" class="green">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="width: 33%;">&nbsp;</td>
+            <td style="width: 34%;">
+                <img src=""
+                     alt="Basketball player"
+                     width="100%"
+                     style="display: block;">
+            </td>
+            <td style="width: 33%;">&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="blue">&nbsp;</td>
+        </tr>
+    </table>
 
 </body>
-
 </html>
